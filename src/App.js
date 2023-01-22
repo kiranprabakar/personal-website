@@ -21,7 +21,7 @@ function App() {
         </a>
       </header>
     </div>*/
-    <div className="App">x
+    <div className="App">
       <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

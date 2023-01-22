@@ -6,7 +6,7 @@ function Navbar() {
     const headshot = require('../Images/headshot.jpg');
 
     return (
-        <nav class="navbar background">
+        <nav class="navbar-background">
                 <ul class="nav-list">
                     <div class="logo">
                         <img src={headshot} />

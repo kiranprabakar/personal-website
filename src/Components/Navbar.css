@@ -12,18 +12,24 @@
     cursor: pointer;
 }
 
+.navbar-background {
+    background-color: aquamarine;
+}
+
 .nav-list {
-    width: 50%;
+    width: 60%;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .nav-list li {
     list-style: none;
-    padding: 26px 30px;
+    padding: 25px 25px;
 }
  
 .nav-list li a {
+    font-family: Papyrus, 'Courier-New', 'Times New Roman';
+    font-size: large;
     text-decoration: none;
     color: #000;
 }
