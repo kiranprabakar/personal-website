@@ -9,11 +9,11 @@ function Navbar() {
         <nav class="navbar-background">
                 <ul class="nav-list">
                     <div class="logo">
-                        <img src={headshot} />
+                        <a href="/"><img src={headshot} /></a>
                     </div>
-                    <li><a href="#Work Experience">Work Experience</a></li>
-                    <li><a href="#Hobbies">Hobbies</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="/WorkExperience">Work Experience</a></li>
+                    <li><a href="/Hobbies">Hobbies</a></li>
+                    <li><a href="/Contact">Contact</a></li>
                 </ul>
             </nav>
     )
