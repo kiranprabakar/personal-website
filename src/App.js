@@ -5,7 +5,7 @@ import './App.css';
 import Navbar from './Components/Navbar'
 import Home from './Pages/Home';
 import WorkExperience from './Pages/WorkExperience';
-import Contact from './Pages/Contact';
+import Projects from './Pages/Projects';
 import WrongPage from './Pages/WrongPage';
 import Hobbies from './Pages/Hobbies';
 
@@ -34,8 +34,8 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="WorkExperience" element={<WorkExperience />} />
+          <Route path="Projects" element={<Projects />} />
           <Route path="Hobbies" element={<Hobbies />} />
-          <Route path="Contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

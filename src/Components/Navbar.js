@@ -12,8 +12,8 @@ function Navbar() {
                         <a href="/"><img src={headshot} /></a>
                     </div>
                     <li><a href="/WorkExperience">Work Experience</a></li>
+                    <li><a href="/Projects">Projects</a></li>
                     <li><a href="/Hobbies">Hobbies</a></li>
-                    <li><a href="/Contact">Contact</a></li>
                 </ul>
             </nav>
     )
